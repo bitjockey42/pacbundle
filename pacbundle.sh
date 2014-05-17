@@ -9,7 +9,7 @@ install_packages () {
 
 if [ -z "$1" ]
 then
-    echo "Usage: pacinstall /path/to/Pacmanfile"
+    echo "Usage: pacbundle /path/to/Pacmanfile"
     exit 1
 else
     install_packages $1
